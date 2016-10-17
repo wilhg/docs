@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Documents</title>
+  <link rel="stylesheet" th:href="@{/styles/modest.css}" />
+  <link rel="stylesheet" th:href="@{/styles/self.css}" />
+  <link href="http://cdn.bootcss.com/bootstrap/4.0.0-alpha.4/css/bootstrap.css" rel="stylesheet" />
+  <script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="main" class="row">
+  <div class="col-md-3" id="index" th:text="${index}"></div>
+  <div class="col-md-9" th:utext="${content}"></div>
+</div>
+<script th:src="@{/scripts/index.js}"></script>
+</body>
+</html>
