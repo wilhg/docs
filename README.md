@@ -1,5 +1,5 @@
 # docs
-A Jekyll like, static document site, using Spring Boot.
+A Jekyll like, static document site, using Spring Boot 1.5.
 
 ![Image of Yaktocat](https://pbs.twimg.com/media/Cu7iqxeUsAE-D3o.jpg:large)
 
