@@ -13,9 +13,11 @@ for (var i = 0; i < indexObject.length; i++) {
       indexDOM += '<li>' + a + '</li>';
     });
     indexDOM += '</ul>';
-  } else {
+  } else if(item.endsWith('.md')) {
     a = '<a href="/'+item+'">'+item+'</a>';
     indexDOM += '<li>' + a + '</li>';
+  } else {
+    indexDOM += '<li>' + item + '</li>';
   }
 }
 indexDOM += '</ul>';
